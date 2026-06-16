@@ -29,3 +29,12 @@ alvo?.scrollIntoView({ behavior: "smooth" });
 });
 // Inicializa
 renderTecnologias();
+const tecnologias = [
+{ nome: 'HTML5', icone: '🌐' },
+{ nome: 'CSS3', icone: '🎨' },
+{ nome: 'JavaScript', icone: '⚡' },
+{ nome: 'React', icone: '⚛️' },
+{ nome: 'MySQL', icone: '🗄️' },
+{ nome: 'Node.js', icone: '🟢' }, // ← adicione assim
+{ nome: 'Git', icone: '🔀' }, // ← e assim
+];
